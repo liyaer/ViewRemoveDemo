@@ -15,6 +15,7 @@
 		D24B21971F66673700E05A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24B21951F66673700E05A90 /* LaunchScreen.storyboard */; };
 		D24B21A21F66673800E05A90 /* ViewRemoveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D24B21A11F66673800E05A90 /* ViewRemoveDemoTests.m */; };
 		D24B21AD1F66673800E05A90 /* ViewRemoveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D24B21AC1F66673800E05A90 /* ViewRemoveDemoUITests.m */; };
+		D2CF19151F67D2820034B295 /* mobView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF19141F67D2820034B295 /* mobView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D24B21A81F66673800E05A90 /* ViewRemoveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewRemoveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24B21AC1F66673800E05A90 /* ViewRemoveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewRemoveDemoUITests.m; sourceTree = "<group>"; };
 		D24B21AE1F66673800E05A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CF19131F67D2820034B295 /* mobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobView.h; sourceTree = "<group>"; };
+		D2CF19141F67D2820034B295 /* mobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mobView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,10 @@
 		D24B21861F66673700E05A90 /* ViewRemoveDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D24B218A1F66673700E05A90 /* AppDelegate.h */,
-				D24B218B1F66673700E05A90 /* AppDelegate.m */,
 				D24B218D1F66673700E05A90 /* ViewController.h */,
 				D24B218E1F66673700E05A90 /* ViewController.m */,
-				D24B21901F66673700E05A90 /* Main.storyboard */,
-				D24B21931F66673700E05A90 /* Assets.xcassets */,
-				D24B21951F66673700E05A90 /* LaunchScreen.storyboard */,
-				D24B21981F66673700E05A90 /* Info.plist */,
+				D2CF19131F67D2820034B295 /* mobView.h */,
+				D2CF19141F67D2820034B295 /* mobView.m */,
 				D24B21871F66673700E05A90 /* Supporting Files */,
 			);
 			path = ViewRemoveDemo;
@@ -117,6 +116,12 @@
 		D24B21871F66673700E05A90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D24B218A1F66673700E05A90 /* AppDelegate.h */,
+				D24B218B1F66673700E05A90 /* AppDelegate.m */,
+				D24B21901F66673700E05A90 /* Main.storyboard */,
+				D24B21931F66673700E05A90 /* Assets.xcassets */,
+				D24B21951F66673700E05A90 /* LaunchScreen.storyboard */,
+				D24B21981F66673700E05A90 /* Info.plist */,
 				D24B21881F66673700E05A90 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24B218F1F66673700E05A90 /* ViewController.m in Sources */,
+				D2CF19151F67D2820034B295 /* mobView.m in Sources */,
 				D24B218C1F66673700E05A90 /* AppDelegate.m in Sources */,
 				D24B21891F66673700E05A90 /* main.m in Sources */,
 			);
@@ -507,6 +513,7 @@
 				D24B21B31F66673800E05A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24B21B41F66673800E05A90 /* Build configuration list for PBXNativeTarget "ViewRemoveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				D24B21B61F66673800E05A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24B21B71F66673800E05A90 /* Build configuration list for PBXNativeTarget "ViewRemoveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				D24B21B91F66673800E05A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
